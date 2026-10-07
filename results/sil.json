@@ -1,0 +1,46 @@
+{
+  "equivalence": {
+    "samples": 15966,
+    "max_abs_diff_C_vs_python_pct": 0.006747011545316095,
+    "c_firmware_rmse_vs_truth_pct": 1.7774885378372456,
+    "python_rmse_vs_truth_pct": 1.7775482288470639
+  },
+  "fault_injection": [
+    {
+      "requirement": "discharge over-current trips 0.5 s after I > 22 A",
+      "expected_s": 30.5,
+      "measured_s": 30.4,
+      "pass": true
+    },
+    {
+      "requirement": "...and retries 30 s later",
+      "expected_s": 60.4,
+      "measured_s": 60.4,
+      "pass": true
+    },
+    {
+      "requirement": "cell over-voltage trips 1 s after V > 4.25 V",
+      "expected_s": 101.83,
+      "measured_s": 101.8,
+      "pass": true
+    },
+    {
+      "requirement": "...clears 1 s after V < 4.15 V",
+      "expected_s": 111.0,
+      "measured_s": 110.9,
+      "pass": true
+    },
+    {
+      "requirement": "over-temperature trips 2 s after T > 60 C",
+      "expected_s": 161.88,
+      "measured_s": 161.8,
+      "pass": true
+    },
+    {
+      "requirement": "...clears 2 s after T < 50 C",
+      "expected_s": 186.05,
+      "measured_s": 186.0,
+      "pass": true
+    }
+  ]
+}

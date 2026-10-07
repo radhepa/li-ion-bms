@@ -1,0 +1,121 @@
+{
+  "UDDS": {
+    "EKF": {
+      "rmse_pct": 1.7800035445542202,
+      "max_pct": 2.5711137887236504,
+      "final_pct": -1.7371410784175125,
+      "time_to_2pct_s": 2.0
+    },
+    "CC, wrong start": {
+      "rmse_pct": 54.17273016260047,
+      "max_pct": 58.02441216133635,
+      "final_pct": -58.02441216133635,
+      "time_to_2pct_s": null
+    },
+    "CC, perfect start": {
+      "rmse_pct": 4.689102056338711,
+      "max_pct": 8.024412161336347,
+      "final_pct": -8.024412161336347,
+      "time_to_2pct_s": 0.0
+    }
+  },
+  "LA92": {
+    "EKF": {
+      "rmse_pct": 1.0087777713831576,
+      "max_pct": 1.6006608388447086,
+      "final_pct": -1.1099506218238575,
+      "time_to_2pct_s": 1.0
+    },
+    "CC, wrong start": {
+      "rmse_pct": 52.72437522409204,
+      "max_pct": 55.10043888730388,
+      "final_pct": -55.10043888730388,
+      "time_to_2pct_s": null
+    },
+    "CC, perfect start": {
+      "rmse_pct": 3.041128960396407,
+      "max_pct": 5.100438887303882,
+      "final_pct": -5.100438887303882,
+      "time_to_2pct_s": 0.0
+    }
+  },
+  "US06": {
+    "EKF": {
+      "rmse_pct": 0.958006003668573,
+      "max_pct": 1.9035084490322873,
+      "final_pct": -0.3712005030715476,
+      "time_to_2pct_s": 2.0
+    },
+    "CC, wrong start": {
+      "rmse_pct": 51.188960450108404,
+      "max_pct": 52.049365739689854,
+      "final_pct": -52.049365739689854,
+      "time_to_2pct_s": null
+    },
+    "CC, perfect start": {
+      "rmse_pct": 1.2904775851081576,
+      "max_pct": 2.049365739689857,
+      "final_pct": -2.049365739689857,
+      "time_to_2pct_s": 0.0
+    }
+  },
+  "Mixed": {
+    "EKF": {
+      "rmse_pct": 1.1057023421374255,
+      "max_pct": 1.6739023680279408,
+      "final_pct": -1.4485710967431467,
+      "time_to_2pct_s": 2.0
+    },
+    "CC, wrong start": {
+      "rmse_pct": 52.15947522957487,
+      "max_pct": 53.978445753917356,
+      "final_pct": -53.978445753917356,
+      "time_to_2pct_s": null
+    },
+    "CC, perfect start": {
+      "rmse_pct": 2.397935580740863,
+      "max_pct": 3.978445753917359,
+      "final_pct": -3.978445753917359,
+      "time_to_2pct_s": 0.0
+    }
+  },
+  "mid_drive_start": {
+    "UDDS": {
+      "true_soc_at_start_pct": 79.26707594794074,
+      "guess_pct": 39.26707594794075,
+      "time_to_within_2pct_s": 4.0,
+      "rmse_after_10min_pct": 1.739793595080268
+    },
+    "LA92": {
+      "true_soc_at_start_pct": 66.77104669544885,
+      "guess_pct": 26.77104669544884,
+      "time_to_within_2pct_s": 86.0,
+      "rmse_after_10min_pct": 0.9977025731466055
+    },
+    "US06": {
+      "true_soc_at_start_pct": 70.8712813794301,
+      "guess_pct": 30.871281379430105,
+      "time_to_within_2pct_s": 21.0,
+      "rmse_after_10min_pct": 0.8526549661443114
+    },
+    "Mixed": {
+      "true_soc_at_start_pct": 55.017008392786416,
+      "guess_pct": 15.017008392786412,
+      "time_to_within_2pct_s": 76.0,
+      "rmse_after_10min_pct": 1.025669588764695
+    }
+  },
+  "sensor_model": {
+    "current_bias_A": 0.05,
+    "current_noise_A": 0.02,
+    "voltage_noise_V": 0.002,
+    "voltage_lsb_V": 0.000382
+  },
+  "tuning": {
+    "soc0": 0.5,
+    "sigma_soc0": 0.3,
+    "sigma_i": 0.05,
+    "sigma_v1": 0.0001,
+    "sigma_v": 0.02
+  }
+}

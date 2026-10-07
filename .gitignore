@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/raw/
+firmware/bms_sil
+firmware/bms_sil.exe
+firmware/test_bms
+firmware/test_bms.exe
+hardware/**/*.kicad_prl
+hardware/**/erc.rpt
+hardware/**/*-backups/

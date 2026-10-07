@@ -1,0 +1,197 @@
+{
+  "no_balancing": [
+    {
+      "cycle": 1,
+      "soc_spread_after_charge_pct": 12.83020952956102,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.196,
+        0.011,
+        0.029,
+        0.095
+      ]
+    },
+    {
+      "cycle": 2,
+      "soc_spread_after_charge_pct": 12.830276293390153,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.196,
+        0.011,
+        0.029,
+        0.095
+      ]
+    },
+    {
+      "cycle": 3,
+      "soc_spread_after_charge_pct": 12.830280747535848,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.196,
+        0.011,
+        0.029,
+        0.095
+      ]
+    },
+    {
+      "cycle": 4,
+      "soc_spread_after_charge_pct": 12.830281044685155,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.196,
+        0.011,
+        0.029,
+        0.095
+      ]
+    },
+    {
+      "cycle": 5,
+      "soc_spread_after_charge_pct": 12.83028106451074,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.196,
+        0.011,
+        0.029,
+        0.095
+      ]
+    },
+    {
+      "cycle": 6,
+      "soc_spread_after_charge_pct": 12.830281065835747,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.196,
+        0.011,
+        0.029,
+        0.095
+      ]
+    },
+    {
+      "cycle": 7,
+      "soc_spread_after_charge_pct": 12.830281065926341,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.196,
+        0.011,
+        0.029,
+        0.095
+      ]
+    },
+    {
+      "cycle": 8,
+      "soc_spread_after_charge_pct": 12.830281065934756,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.196,
+        0.011,
+        0.029,
+        0.095
+      ]
+    }
+  ],
+  "with_balancing": [
+    {
+      "cycle": 1,
+      "soc_spread_after_charge_pct": 12.288864083010864,
+      "usable_ah": 2.385828331383342,
+      "soc_after_discharge": [
+        0.193,
+        0.007,
+        0.032,
+        0.092
+      ]
+    },
+    {
+      "cycle": 2,
+      "soc_spread_after_charge_pct": 11.143884669493186,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.192,
+        0.008,
+        0.042,
+        0.092
+      ]
+    },
+    {
+      "cycle": 3,
+      "soc_spread_after_charge_pct": 10.00412651564686,
+      "usable_ah": 2.388095648694453,
+      "soc_after_discharge": [
+        0.192,
+        0.01,
+        0.053,
+        0.093
+      ]
+    },
+    {
+      "cycle": 4,
+      "soc_spread_after_charge_pct": 8.842091466685654,
+      "usable_ah": 2.4073925759750083,
+      "soc_after_discharge": [
+        0.186,
+        0.005,
+        0.059,
+        0.087
+      ]
+    },
+    {
+      "cycle": 5,
+      "soc_spread_after_charge_pct": 7.69404740842623,
+      "usable_ah": 2.4103844542500084,
+      "soc_after_discharge": [
+        0.185,
+        0.006,
+        0.069,
+        0.087
+      ]
+    },
+    {
+      "cycle": 6,
+      "soc_spread_after_charge_pct": 6.54925347363331,
+      "usable_ah": 2.4183440312638984,
+      "soc_after_discharge": [
+        0.182,
+        0.009,
+        0.077,
+        0.085
+      ]
+    },
+    {
+      "cycle": 7,
+      "soc_spread_after_charge_pct": 5.439294798321681,
+      "usable_ah": 2.453420468747233,
+      "soc_after_discharge": [
+        0.17,
+        0.004,
+        0.076,
+        0.073
+      ]
+    },
+    {
+      "cycle": 8,
+      "soc_spread_after_charge_pct": 4.353854570133819,
+      "usable_ah": 2.4759438718083455,
+      "soc_after_discharge": [
+        0.163,
+        0.003,
+        0.079,
+        0.066
+      ]
+    }
+  ],
+  "cells": {
+    "capacity_ah": [
+      2.952,
+      2.568,
+      2.816,
+      2.734
+    ],
+    "r_scale": [
+      0.964,
+      0.983,
+      0.838,
+      0.981
+    ]
+  },
+  "ideal_usable_ah": 2.568035515019814
+}
